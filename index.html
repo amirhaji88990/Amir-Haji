@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ورود رمز</title>
     <style>
+        * {
+            box-sizing: border-box; /* تنظیم box-sizing به border-box */
+        }
+
         body {
             font-family: 'Arial', sans-serif;
             direction: rtl;
@@ -31,11 +35,11 @@
 
         .container {
             background-color: rgba(0, 123, 255, 0.9);
-            padding: 30px;
+            padding: 20px; /* کاهش فضای داخلی */
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             width: 100%;
-            max-width: 350px;
+            max-width: 300px; /* کاهش عرض کادر */
             transition: all 0.3s ease;
             margin-top: 30px;
             animation: float 3s ease-in-out infinite;
@@ -87,7 +91,7 @@
             color: red;
             text-align: center;
             margin-top: 10px;
-            font-size: 2em; /* تغییر اندازه فونت به 2em */
+            font-size: 2em;
         }
 
         .response {
@@ -95,7 +99,7 @@
             margin-top: 20px;
             color: #fff;
             font-size: 1.5em;
-            overflow-wrap: break-word; /* جلوگیری از خروج متن */
+            overflow-wrap: break-word;
         }
 
         .green {
@@ -150,6 +154,8 @@
 
 </body>
 </html>
+
+
 
 
 
